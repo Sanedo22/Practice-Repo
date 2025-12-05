@@ -170,6 +170,27 @@ body {
 
 /* Footer */
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.footer-links {
+  font-size: 0.85rem;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
 .site-footer {
   margin-top: 40px;
   padding: 16px 0;
